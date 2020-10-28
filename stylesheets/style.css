@@ -1,5 +1,10 @@
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
   @font-face {
-    font-family: gotham;
+    font-family: gotham-bold;
     src: url(fonts/GothamBold.ttf);
     font-weight: bold;
   }
@@ -10,19 +15,194 @@
   }
   
   @font-face {
-    font-family: 'helvetica neue';
+    font-family: 'helvetica neue-bold';
     src: url('fonts/HelveticaNeueLT75Bold.ttf');
     font-weight: bold;
   }
   
   @font-face {
-    font-family: 'helvetica neue';
+    font-family: 'helvetica neue-medium';
     src: url('fonts/HelveticaNeueLT65Medium.ttf');
     font-weight: 400;
   }
   
   @font-face {
-    font-family: 'helvetica neue';
+    font-family: 'helvetica neue-light';
     src: url('fonts/HelveticaNeueLT45Light.ttf');
   }
   
+  nav ul {
+      list-style-type: none;
+      font-family: gotham-bold;
+      font-size: 24px;
+  }
+
+  header {
+      background-color: #383838;
+      height: 42px;
+      color: white;
+  }
+
+  nav img {
+      height: 40px;
+      margin-left: 20px;
+  }
+
+  nav i {
+      margin-left: 160px;
+  }
+
+  .company-name {
+  padding-left: 10px;
+  padding-top: 3px;
+  }
+
+  .d-flex {
+      display: flex;
+  }
+
+  .search-section {
+      background-color: #d35266;
+      height: 100px;
+      justify-content: center;
+  }
+
+  .search-section i {
+      position: absolute;
+      z-index: 1;
+      margin-right: 200px;
+      padding-top: 8px;
+  }
+
+  .search-section i,
+  .search-section input,
+  .search-section button {
+      margin-top: 40px;
+      width: 70px;
+      height: 30px;
+      border: none;
+      margin-left: 2px;
+  }
+
+  .search-section input,
+  .search-section button {
+      position: relative;
+  }
+
+  .search {
+      padding-left: 10px;
+  }
+
+  .caret {
+      padding-left: 20px;
+  }
+
+  .search-section button {
+      background-color:  #383838;
+      color: white;
+      font-family: gotham-bold;
+      margin-left: 4px;
+  }
+
+  .lightgrey {
+      background-color: lightgray;
+      height: 3650px;
+  }
+
+  .electronics-item {
+      margin-top: 50px;
+  }
+
+  .sony-mobile-details h2 {
+   font-family: helvetica neue-bold;
+   font-size: larger;
+   text-align: center;
+   padding-top: 30px;
+   letter-spacing: 2px;
+  }
+
+  .sony-mobile-details img {
+      margin-left: 12%;
+  }
+
+  .back {
+      background-color: white;
+      height: 400px;
+      width: 320px;
+      text-align: center;
+      margin-left: 20px;
+  }
+
+  article {
+      background-color: white;
+      color: #888888;
+      height: 200px;
+  }
+
+  .price,
+  .used,
+  .categories {
+    color: #d35266;  
+  }
+  
+  .used {
+      font-family: helvetica neue-medium;
+  }
+
+  .product-name {
+      font-family: helvetica neue-bold;
+      width: 250px;
+      margin-left: 30px;
+  }
+
+  .city {
+      font-family: helvetica neue-light;
+  }
+
+  .product-price {
+      justify-content: space-around;
+  }
+
+  .product-price i {
+      border: 2px solid lightgrey;
+      padding: 6px;
+  }
+
+  .mt {
+      margin-top: 50px;
+  }
+
+  .ml img {
+    width: 280px;
+  }
+
+  .leno-lap {
+      margin-top: 50px;
+  }
+
+  .tv img {
+       width: 255px;
+  }
+
+  .airpods img {
+      height: 200px;
+      margin-bottom: 20px;
+  }
+
+  .leno-lap img {
+      width: 200px;
+      margin-bottom: 30px;
+      height: 180px;
+  }
+
+ .camera img {
+    height:  186px;
+    margin-bottom: 30px;
+}
+
+.sonycamera img{
+    margin-top: 20px;
+    width: 200px;
+}
+
+
