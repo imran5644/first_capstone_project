@@ -1,0 +1,39 @@
+.sony-mobile-details {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.ml{
+    margin-top: 5px;
+} 
+
+.lightgrey {
+    background-color: lightgray;
+    height: 1950px;
+}
+
+.back {
+    background-color: white;
+    height: 420px;
+    width: 350px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.space {
+    justify-content: space-around;
+}
+
+.company-detail,
+.logo-name {
+    width: 220px;
+    list-style-type: none;
+}
+
+.right-side {
+    margin-left: 460px
+}
+
+.mt {
+    margin-top: 75px;
+}

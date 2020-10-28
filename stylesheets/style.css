@@ -113,7 +113,7 @@
       margin-top: 50px;
   }
 
-  .sony-mobile-details h2 {
+  .electronics-item h2 {
    font-family: helvetica neue-bold;
    font-size: larger;
    text-align: center;
@@ -135,15 +135,19 @@
 
   article {
       background-color: white;
-      color: #888888;
+      color: #ac8585;
       height: 200px;
   }
 
-  .price,
-  .used,
-  .categories {
-    color: #d35266;  
-  }
+.logo-name {
+    color: #888888;
+    font-family: gotham-bold;
+    padding-left: 10px;
+}
+
+.company-detail {
+    padding-left: 10px;
+}
   
   .used {
       font-family: helvetica neue-medium;
@@ -205,4 +209,73 @@
     width: 200px;
 }
 
+.product-info,
+.website-info,
+.payment-info {
+    padding-left: 10px;
+}
 
+.payment-info input {
+    width: 100px;
+    border: 1px solid #888888;
+    height: 30px;
+}
+
+.country input {
+    margin-left: 21px;
+   
+}
+
+.currency input {
+    margin-left: 14px;
+}
+
+.language input {
+    margin-left: 8px;
+}
+
+.copyrights {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.right-side {
+    margin-left: 50px;
+    font-size: 20px;
+    list-style: none;
+    }
+
+.right-side i {
+    padding-left: 5px;
+    margin-top: -30px;
+}
+
+  .price,
+  .used,
+  .categories,
+  .navigation,
+  .country,
+  .language,
+  .currency {
+    color: #d35266;  
+  }
+
+  .grey {
+      color: grey;
+      font-family: gotham;
+      list-style: none;
+  }
+
+  .categories,
+  .navigation {
+      font-family: gotham-bold;
+      list-style: none;
+  }
+
+  .payment-info {
+      font-family: helvetica neue-bold;
+  }
+
+  .electronics-item {
+      margin-top: 0;
+  }
