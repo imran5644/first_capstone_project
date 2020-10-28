@@ -64,7 +64,7 @@
   .search-section {
       background-color: #d35266;
       height: 100px;
-      justify-content: center;
+      padding-left: 20px;
   }
 
   .search-section i {
@@ -231,12 +231,13 @@
 }
 
 .language input {
-    margin-left: 8px;
+    margin-left: 10px;
 }
 
 .copyrights {
     font-size: 12px;
     margin-top: 15px;
+    margin-left: 10px;
 }
 
 .right-side {

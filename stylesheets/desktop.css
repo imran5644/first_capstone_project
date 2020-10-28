@@ -1,0 +1,118 @@
+.styling {
+    color: grey;
+    font-size: medium;
+    padding-top: 7px;
+    padding-left: 75px;
+}
+
+.username {
+    margin-left: 180px;
+}
+
+.center {
+    text-align: center;
+    color: white;
+    background-color: #d35266;
+    padding-top: 40px;
+}
+
+
+.search-section {
+    background-color: #d35266;
+    height: 250px;
+    padding-left: 15px;
+}
+
+.search-section i,
+.search-section input,
+.search-section button {
+    margin-top: 40px;
+    width: 180px;
+    height: 30px;
+    border: none;
+    margin-left: 2px;
+}
+
+.search-section input,
+.search-section button {
+    position: relative;
+}
+
+.search {
+    padding-left: 10px;
+}
+
+.caret {
+    margin-left: 20px;
+}
+
+.search-section button {
+    background-color:  #383838;
+    color: white;
+    font-family: gotham-bold;
+    margin-left: 4px;
+}
+
+.search-section i {
+    position: absolute;
+    z-index: 1;
+    margin-right: 220px;
+    padding-top: 8px;
+}
+
+.sony-mobile-details {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-gap: 30px;
+    }
+
+    .ml-tab {
+        margin-top: 30px;
+    }
+
+    .mt {
+        margin-top: 0;
+    }
+
+    .back {
+        background-color: white;
+        height: 420px;
+        width: 280px;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .back img {
+        width: 220px;
+    }
+
+    .product-name {
+        width: 200px;
+    }
+ 
+.lightgrey {
+    background-color: lightgray;
+    height: 1000px;
+}
+
+.company-detail,
+.logo-name {
+    width: 350px;
+    list-style-type: none;
+}
+
+.mt-11 {
+    margin-top: 65px;
+    padding-left:30px;
+}
+
+.copyrights {
+    font-size: 16px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.right-side {
+margin-left: 800px;
+font-size: 30px;
+}
