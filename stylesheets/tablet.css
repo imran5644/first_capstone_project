@@ -3,9 +3,9 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.ml{
+.ml {
   margin-top: 5px;
-} 
+}
 
 .lightgrey {
   background-color: lightgray;
@@ -31,7 +31,7 @@
 }
 
 .right-side {
-  margin-left: 300px
+  margin-left: 300px;
 }
 
 .mt-11 {
@@ -90,9 +90,9 @@
 }
 
 .search-section button {
-  background-color:  #383838;
+  background-color: #383838;
   color: white;
-  font-family: gotham-bold;
+  font-family: 'gotham-bold';
   margin-left: 4px;
 }
 
@@ -111,21 +111,21 @@
 }
 
  /* =====search.html====  */
- .grid-container {
-   display: grid;
-   grid-template-columns: 270px 1fr;
+.grid-container {
+  display: grid;
+  grid-template-columns: 270px 1fr;
  }
 
- .border-right {
-   border-right: 1px solid white;
+.border-right {
+  border-right: 1px solid white;
  }
 
- .products-details img {
-   height: 180;
-   width: 120px;
-   object-fit: contain;
- }
+.products-details img {
+  height: 180px;
+  width: 120px;
+  object-fit: contain;
+}
 
- .products-infos {
+.products-infos {
   padding-top: 50px;
 }

@@ -4,28 +4,28 @@
   font-weight: bold;
   }
 
-  @font-face {
+@font-face {
   font-family: gotham;
   src: url(fonts/GothamLight.ttf);
-  }
-  
-  @font-face {
+}
+
+@font-face {
   font-family: 'helvetica neue-bold';
   src: url('fonts/HelveticaNeueLT75Bold.ttf');
   font-weight: bold;
-  }
-  
-  @font-face {
+}
+
+@font-face {
   font-family: 'helvetica neue-medium';
   src: url('fonts/HelveticaNeueLT65Medium.ttf');
   font-weight: 400;
-  }
-  
-  @font-face {
+}
+
+@font-face {
   font-family: 'helvetica neue-light';
   src: url('fonts/HelveticaNeueLT45Light.ttf');
-  }
-  
+}
+
 .styling {
   color: grey;
   font-size: medium;
@@ -76,7 +76,7 @@
 .search-section button {
   background-color: #383838;
   color: white;
-  font-family: gotham-bold;
+  font-family: 'gotham-bold';
   margin-left: 4px;
 }
 
@@ -91,32 +91,32 @@
   display: grid;
   grid-template-columns: 280px 280px 280px 280px;
   grid-gap: 30px;
-  }
+}
 
-  .ml-tab {
+.ml-tab {
   margin-top: 30px;
-  }
+}
 
-  .mt {
+.mt {
   margin-top: 0;
-  }
+}
 
-  .back {
+.back {
   background-color: white;
   height: 420px;
   width: 280px;
   text-align: center;
   margin-left: 20px;
-  }
+ }
 
-  .back img {
+.back img {
   width: 220px;
-  }
+}
 
-  .product-name {
+.product-name {
   width: 200px;
-  }
- 
+}
+
 .lightgrey {
   background-color: lightgray;
   height: 1000px;
@@ -130,7 +130,7 @@
 
 .mt-11 {
   margin-top: 65px;
-  padding-left:30px;
+  padding-left: 30px;
 }
 
 .copyrights {
@@ -140,8 +140,8 @@
 }
 
 .right-side {
-margin-left: 800px;
-font-size: 30px;
+  margin-left: 800px;
+  font-size: 30px;
 }
 
 /* ====search.html=== */

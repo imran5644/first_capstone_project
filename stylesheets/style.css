@@ -1,7 +1,7 @@
-  * {
+* {
   padding: 0;
   margin: 0;
-  }
+}
 
 @font-face {
   font-family: gotham-bold;
@@ -12,28 +12,28 @@
 @font-face {
   font-family: gotham;
   src: url(fonts/GothamLight.ttf);
- }
-  
+}
+
 @font-face {
   font-family: 'helvetica neue-bold';
   src: url('fonts/HelveticaNeueLT75Bold.ttf');
   font-weight: bold;
 }
-  
+
 @font-face {
   font-family: 'helvetica neue-medium';
   src: url('fonts/HelveticaNeueLT65Medium.ttf');
   font-weight: 400;
 }
-  
+
 @font-face {
   font-family: 'helvetica neue-light';
   src: url('fonts/HelveticaNeueLT45Light.ttf');
 }
-  
+
 nav ul {
   list-style-type: none;
-  font-family: gotham-bold;
+  font-family: 'gotham-bold';
   font-size: 24px;
 }
 
@@ -94,9 +94,9 @@ nav i {
 }
 
 .search-section button {
-  background-color:  #383838;
+  background-color:#383838;
   color: white;
-  font-family: gotham-bold;
+  font-family: 'gotham-bold';
   margin-left: 4px;
 }
 
@@ -105,16 +105,12 @@ nav i {
   height: 3650px;
 }
 
-.electronics-item {
-  margin-top: 50px;
-}
-
 .electronics-item h2 {
-   font-family: helvetica neue-bold;
-   font-size: larger;
-   text-align: center;
-   padding-top: 30px;
-   letter-spacing: 2px;
+  font-family: 'helvetica neue-bold';
+  font-size: larger;
+  text-align: center;
+  padding-top: 30px;
+  letter-spacing: 2px;
 }
 
 .sony-mobile-details img {
@@ -136,27 +132,27 @@ article {
 }
 
 .logo-name {
-  color: #888888;
-  font-family: gotham-bold;
+  color: #888;
+  font-family: 'gotham-bold';
   padding-left: 10px;
 }
 
 .company-detail {
   padding-left: 10px;
 }
-  
+
 .used {
-  font-family: helvetica neue-medium;
+  font-family: 'helvetica neue-medium';
 }
 
 .product-name {
-  font-family: helvetica neue-bold;
+  font-family: 'helvetica neue-bold';
   width: 250px;
   margin-left: 30px;
 }
 
 .city {
-  font-family: helvetica neue-light;
+  font-family: 'helvetica neue-light';
 }
 
 .product-price {
@@ -196,11 +192,11 @@ article {
 }
 
 .camera img {
-  height:  186px;
+  height: 186px;
   margin-bottom: 30px;
 }
 
-.sonycamera img{
+.sonycamera img {
   margin-top: 20px;
   width: 200px;
 }
@@ -213,13 +209,12 @@ article {
 
 .payment-info input {
   width: 100px;
-  border: 1px solid #888888;
+  border: 1px solid #888;
   height: 30px;
 }
 
 .country input {
   margin-left: 21px;
-   
 }
 
 .currency input {
@@ -240,7 +235,7 @@ article {
   margin-left: 50px;
   font-size: 20px;
   list-style: none;
-  }
+}
 
 .right-side i {
   padding-left: 5px;
@@ -259,26 +254,25 @@ article {
 
 .grey {
   color: grey;
-  font-family: gotham;
+  font-family: 'gotham';
   list-style: none;
 }
 
 .categories,
 .navigation {
-  font-family: gotham-bold;
+  font-family: 'gotham-bold';
   list-style: none;
 }
 
 .payment-info {
-  font-family: helvetica neue-bold;
+  font-family: 'helvetica neue-bold';
 }
 
 .electronics-item {
   margin-top: 0;
 }
-
-  /* ==== Search.html ===== */
-
+  
+/* ==== Search.html ===== */
 .back-grey {
   background-color: lightgrey;
 }
@@ -286,7 +280,7 @@ article {
 .products-price h3,
 .price-range h3 {
   font-size: large;
-  font-family: gotham-bold;
+  font-family: 'gotham-bold';
   margin-top: 10px;
   width: 200px;
   padding-left: 4px;
@@ -295,7 +289,7 @@ article {
 }
 
 .products-details p {
-  font-family: helvetica neue-bold;
+  font-family: 'helvetica neue-bold';
   margin-left: 30px;
 }
 
@@ -317,7 +311,7 @@ article {
 }
 
 .electronic-product {
-  font-family: gotham-bold;
+  font-family: 'gotham-bold';
 }
 
 .prices {
@@ -325,16 +319,16 @@ article {
 }
 
 .grey-color {
-  color: #888888;
+  color: #888;
 }
 
 .date {
-  font-family: helvetica neue-medium;
+  font-family: 'helvetica neue-medium';
 }
 
 .products-info {
   width: 300px;
-  font-family: gotham;
+  font-family: 'gotham';
 }
 
 .page-no {
