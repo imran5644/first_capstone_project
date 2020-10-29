@@ -76,7 +76,7 @@
 .search-section button {
   background-color: #383838;
   color: white;
-  font-family: Helvetica, sans-serif, gotham;
+  font-family: gotham, Helvetica, sans-serif ;
   margin-left: 4px;
 }
 
