@@ -9,9 +9,9 @@ This is a responsive site and will scale as needed to different devices.
 
 ![desktop](screenshots/desktop.PNG)
 
-![tablet](screenshots/tablet.PNG)
+![tablet](screenshots/tablets.PNG)
 
-![mobile](screenshots/mobile.PNG)
+![mobile](screenshots/mobiles.PNG)
 
 ## Built With
 
