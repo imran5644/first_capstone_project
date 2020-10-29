@@ -4,13 +4,13 @@
 }
 
 @font-face {
-  font-family: gotham-bold;
+  font-family: 'gotham-bold';
   src: url(fonts/GothamBold.ttf);
   font-weight: bold;
 }
 
 @font-face {
-  font-family: gotham;
+  font-family: 'gotham';
   src: url(fonts/GothamLight.ttf);
 }
 

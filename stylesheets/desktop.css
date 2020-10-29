@@ -1,28 +1,28 @@
 @font-face {
-  font-family: gotham-bold;
+  font-family: 'gotham';
   src: url(fonts/GothamBold.ttf);
   font-weight: bold;
-  }
+}
 
 @font-face {
-  font-family: gotham;
+  font-family: 'gotham';
   src: url(fonts/GothamLight.ttf);
 }
 
 @font-face {
-  font-family: 'helvetica neue-bold';
+  font-family: 'helvetica neue';
   src: url('fonts/HelveticaNeueLT75Bold.ttf');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'helvetica neue-medium';
+  font-family: 'helvetica neue';
   src: url('fonts/HelveticaNeueLT65Medium.ttf');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'helvetica neue-light';
+  font-family: 'helvetica neue';
   src: url('fonts/HelveticaNeueLT45Light.ttf');
 }
 
@@ -107,7 +107,7 @@
   width: 280px;
   text-align: center;
   margin-left: 20px;
- }
+}
 
 .back img {
   width: 220px;
