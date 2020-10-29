@@ -1,347 +1,343 @@
   * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
   }
 
-  @font-face {
-    font-family: gotham-bold;
-    src: url(fonts/GothamBold.ttf);
-    font-weight: bold;
-  }
+@font-face {
+  font-family: gotham-bold;
+  src: url(fonts/GothamBold.ttf);
+  font-weight: bold;
+}
 
-  @font-face {
-    font-family: gotham;
-    src: url(fonts/GothamLight.ttf);
-  }
+@font-face {
+  font-family: gotham;
+  src: url(fonts/GothamLight.ttf);
+ }
   
-  @font-face {
-    font-family: 'helvetica neue-bold';
-    src: url('fonts/HelveticaNeueLT75Bold.ttf');
-    font-weight: bold;
-  }
+@font-face {
+  font-family: 'helvetica neue-bold';
+  src: url('fonts/HelveticaNeueLT75Bold.ttf');
+  font-weight: bold;
+}
   
-  @font-face {
-    font-family: 'helvetica neue-medium';
-    src: url('fonts/HelveticaNeueLT65Medium.ttf');
-    font-weight: 400;
-  }
+@font-face {
+  font-family: 'helvetica neue-medium';
+  src: url('fonts/HelveticaNeueLT65Medium.ttf');
+  font-weight: 400;
+}
   
-  @font-face {
-    font-family: 'helvetica neue-light';
-    src: url('fonts/HelveticaNeueLT45Light.ttf');
-  }
+@font-face {
+  font-family: 'helvetica neue-light';
+  src: url('fonts/HelveticaNeueLT45Light.ttf');
+}
   
-  nav ul {
-      list-style-type: none;
-      font-family: gotham-bold;
-      font-size: 24px;
-  }
+nav ul {
+  list-style-type: none;
+  font-family: gotham-bold;
+  font-size: 24px;
+}
 
-  header {
-      background-color: #383838;
-      height: 42px;
-      color: white;
-  }
+header {
+  background-color: #383838;
+  height: 42px;
+  color: white;
+}
 
-  nav img {
-      height: 40px;
-      margin-left: 20px;
-  }
+nav img {
+  height: 40px;
+  margin-left: 20px;
+}
 
-  nav i {
-      margin-left: 160px;
-  }
+nav i {
+  margin-left: 160px;
+}
 
-  .company-name {
+.company-name {
   padding-left: 10px;
   padding-top: 3px;
-  }
+}
 
-  .d-flex {
-      display: flex;
-  }
+.search-section {
+  background-color: #d35266;
+  height: 100px;
+  padding-left: 20px;
+}
 
-  .search-section {
-      background-color: #d35266;
-      height: 100px;
-      padding-left: 20px;
-  }
+.search-section i {
+  position: absolute;
+  z-index: 1;
+  margin-right: 200px;
+  padding-top: 8px;
+}
 
-  .search-section i {
-      position: absolute;
-      z-index: 1;
-      margin-right: 200px;
-      padding-top: 8px;
-  }
+.search-section i,
+.search-section input,
+.search-section button {
+  margin-top: 40px;
+  width: 70px;
+  height: 30px;
+  border: none;
+  margin-left: 2px;
+}
 
-  .search-section i,
-  .search-section input,
-  .search-section button {
-      margin-top: 40px;
-      width: 70px;
-      height: 30px;
-      border: none;
-      margin-left: 2px;
-  }
+.search-section input,
+.search-section button {
+  position: relative;
+}
 
-  .search-section input,
-  .search-section button {
-      position: relative;
-  }
+.search {
+  padding-left: 10px;
+}
 
-  .search {
-      padding-left: 10px;
-  }
+.caret {
+  padding-left: 20px;
+}
 
-  .caret {
-      padding-left: 20px;
-  }
+.search-section button {
+  background-color:  #383838;
+  color: white;
+  font-family: gotham-bold;
+  margin-left: 4px;
+}
 
-  .search-section button {
-      background-color:  #383838;
-      color: white;
-      font-family: gotham-bold;
-      margin-left: 4px;
-  }
+.lightgrey {
+  background-color: lightgray;
+  height: 3650px;
+}
 
-  .lightgrey {
-      background-color: lightgray;
-      height: 3650px;
-  }
+.electronics-item {
+  margin-top: 50px;
+}
 
-  .electronics-item {
-      margin-top: 50px;
-  }
-
-  .electronics-item h2 {
+.electronics-item h2 {
    font-family: helvetica neue-bold;
    font-size: larger;
    text-align: center;
    padding-top: 30px;
    letter-spacing: 2px;
-  }
+}
 
-  .sony-mobile-details img {
-      margin-left: 12%;
-  }
+.sony-mobile-details img {
+  margin-left: 12%;
+}
 
-  .back {
-      background-color: white;
-      height: 400px;
-      width: 320px;
-      text-align: center;
-      margin-left: 20px;
-  }
+.back {
+  background-color: white;
+  height: 400px;
+  width: 320px;
+  text-align: center;
+  margin-left: 20px;
+}
 
-  article {
-      background-color: white;
-      color: #ac8585;
-      height: 200px;
-  }
+article {
+  background-color: white;
+  color: #ac8585;
+  height: 200px;
+}
 
 .logo-name {
-    color: #888888;
-    font-family: gotham-bold;
-    padding-left: 10px;
+  color: #888888;
+  font-family: gotham-bold;
+  padding-left: 10px;
 }
 
 .company-detail {
-    padding-left: 10px;
+  padding-left: 10px;
 }
   
-  .used {
-      font-family: helvetica neue-medium;
-  }
+.used {
+  font-family: helvetica neue-medium;
+}
 
-  .product-name {
-      font-family: helvetica neue-bold;
-      width: 250px;
-      margin-left: 30px;
-  }
+.product-name {
+  font-family: helvetica neue-bold;
+  width: 250px;
+  margin-left: 30px;
+}
 
-  .city {
-      font-family: helvetica neue-light;
-  }
+.city {
+  font-family: helvetica neue-light;
+}
 
-  .product-price {
-      justify-content: space-around;
-  }
+.product-price {
+  justify-content: space-around;
+}
 
-  .product-price i {
-      border: 2px solid lightgrey;
-      padding: 6px;
-  }
+.product-price i {
+  border: 2px solid lightgrey;
+  padding: 6px;
+}
 
-  .mt {
-      margin-top: 50px;
-  }
+.mt {
+  margin-top: 50px;
+}
 
-  .ml img {
-    width: 280px;
-  }
+.ml img {
+  width: 280px;
+}
 
-  .leno-lap {
-      margin-top: 50px;
-  }
+.leno-lap {
+  margin-top: 50px;
+}
 
-  .tv img {
-       width: 255px;
-  }
+.tv img {
+  width: 255px;
+}
 
-  .airpods img {
-      height: 200px;
-      margin-bottom: 20px;
-  }
+.airpods img {
+  height: 200px;
+  margin-bottom: 20px;
+}
 
-  .leno-lap img {
-      width: 200px;
-      margin-bottom: 30px;
-      height: 180px;
-  }
+.leno-lap img {
+  width: 200px;
+  margin-bottom: 30px;
+  height: 180px;
+}
 
- .camera img {
-    height:  186px;
-    margin-bottom: 30px;
+.camera img {
+  height:  186px;
+  margin-bottom: 30px;
 }
 
 .sonycamera img{
-    margin-top: 20px;
-    width: 200px;
+  margin-top: 20px;
+  width: 200px;
 }
 
 .product-info,
 .website-info,
 .payment-info {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .payment-info input {
-    width: 100px;
-    border: 1px solid #888888;
-    height: 30px;
+  width: 100px;
+  border: 1px solid #888888;
+  height: 30px;
 }
 
 .country input {
-    margin-left: 21px;
+  margin-left: 21px;
    
 }
 
 .currency input {
-    margin-left: 14px;
+  margin-left: 14px;
 }
 
 .language input {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .copyrights {
-    font-size: 12px;
-    margin-top: 15px;
-    margin-left: 10px;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-left: 10px;
 }
 
 .right-side {
-    margin-left: 50px;
-    font-size: 20px;
-    list-style: none;
-    }
+  margin-left: 50px;
+  font-size: 20px;
+  list-style: none;
+  }
 
 .right-side i {
-    padding-left: 5px;
-    margin-top: -30px;
+  padding-left: 5px;
+  margin-top: -30px;
 }
 
-  .price,
-  .used,
-  .categories,
-  .navigation,
-  .country,
-  .language,
-  .currency {
-    color: #d35266;  
-  }
+.price,
+.used,
+.categories,
+.navigation,
+.country,
+.language,
+.currency {
+  color: #d35266;  
+}
 
-  .grey {
-      color: grey;
-      font-family: gotham;
-      list-style: none;
-  }
+.grey {
+  color: grey;
+  font-family: gotham;
+  list-style: none;
+}
 
-  .categories,
-  .navigation {
-      font-family: gotham-bold;
-      list-style: none;
-  }
+.categories,
+.navigation {
+  font-family: gotham-bold;
+  list-style: none;
+}
 
-  .payment-info {
-      font-family: helvetica neue-bold;
-  }
+.payment-info {
+  font-family: helvetica neue-bold;
+}
 
-  .electronics-item {
-      margin-top: 0;
-  }
+.electronics-item {
+  margin-top: 0;
+}
 
   /* ==== Search.html ===== */
 
-  .back-grey {
-      background-color: lightgrey;
-  }
+.back-grey {
+  background-color: lightgrey;
+}
 
-  .products-price h3,
-  .price-range h3 {
-      font-size: large;
-      font-family: gotham-bold;
-      margin-top: 10px;
-      width: 200px;
-      padding-left: 4px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid white;
-  }
+.products-price h3,
+.price-range h3 {
+  font-size: large;
+  font-family: gotham-bold;
+  margin-top: 10px;
+  width: 200px;
+  padding-left: 4px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid white;
+}
 
-  .products-details p {
-      font-family: helvetica neue-bold;
-      margin-left: 30px;
-  }
+.products-details p {
+  font-family: helvetica neue-bold;
+  margin-left: 30px;
+}
 
-  .products-details img {
-      width: 280px;
-      height: 200px;
-      margin-left: 40px;
-  }
+.products-details img {
+  width: 280px;
+  height: 200px;
+  margin-left: 40px;
+}
 
-  .search-results {
-      border-bottom: 1px solid white;
-      width: 250px;
-  }
+.search-results {
+  border-bottom: 1px solid white;
+  width: 250px;
+}
 
-  .plus-icon i {
-      margin-left: 130px;
-      border: 1px solid white;
-      padding: 7px;
-  }
+.plus-icon i {
+  margin-left: 130px;
+  border: 1px solid white;
+  padding: 7px;
+}
 
-  .electronic-product {
-      font-family: gotham-bold;
-  }
+.electronic-product {
+  font-family: gotham-bold;
+}
 
-  .prices {
-      color: #d35266;
-  }
+.prices {
+  color: #d35266;
+}
 
-  .grey-color {
-      color: #888888;
-  }
+.grey-color {
+  color: #888888;
+}
 
-  .date {
-      font-family: helvetica neue-medium;
-  }
+.date {
+  font-family: helvetica neue-medium;
+}
 
-  .products-info {
-      width: 300px;
-      font-family: gotham;
-  }
+.products-info {
+  width: 300px;
+  font-family: gotham;
+}
 
-  .page-no {
-      border: 1px solid white;
-      padding: 7px;
-  }
+.page-no {
+  border: 1px solid white;
+  padding: 7px;
+}

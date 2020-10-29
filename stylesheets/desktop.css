@@ -1,3 +1,31 @@
+@font-face {
+  font-family: gotham-bold;
+  src: url(fonts/GothamBold.ttf);
+  font-weight: bold;
+  }
+
+  @font-face {
+  font-family: gotham;
+  src: url(fonts/GothamLight.ttf);
+  }
+  
+  @font-face {
+  font-family: 'helvetica neue-bold';
+  src: url('fonts/HelveticaNeueLT75Bold.ttf');
+  font-weight: bold;
+  }
+  
+  @font-face {
+  font-family: 'helvetica neue-medium';
+  src: url('fonts/HelveticaNeueLT65Medium.ttf');
+  font-weight: 400;
+  }
+  
+  @font-face {
+  font-family: 'helvetica neue-light';
+  src: url('fonts/HelveticaNeueLT45Light.ttf');
+  }
+  
 .styling {
   color: grey;
   font-size: medium;
@@ -15,7 +43,6 @@
   background-color: #d35266;
   padding-top: 40px;
 }
-
 
 .search-section {
   background-color: #d35266;
@@ -47,7 +74,7 @@
 }
 
 .search-section button {
-  background-color:  #383838;
+  background-color: #383838;
   color: white;
   font-family: gotham-bold;
   margin-left: 4px;
@@ -67,27 +94,27 @@
   }
 
   .ml-tab {
-    margin-top: 30px;
+  margin-top: 30px;
   }
 
   .mt {
-    margin-top: 0;
+  margin-top: 0;
   }
 
   .back {
-    background-color: white;
-    height: 420px;
-    width: 280px;
-    text-align: center;
-    margin-left: 20px;
+  background-color: white;
+  height: 420px;
+  width: 280px;
+  text-align: center;
+  margin-left: 20px;
   }
 
   .back img {
-    width: 220px;
+  width: 220px;
   }
 
   .product-name {
-    width: 200px;
+  width: 200px;
   }
  
 .lightgrey {
