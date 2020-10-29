@@ -280,3 +280,68 @@
   .electronics-item {
       margin-top: 0;
   }
+
+  /* ==== Search.html ===== */
+
+  .back-grey {
+      background-color: lightgrey;
+  }
+
+  .products-price h3,
+  .price-range h3 {
+      font-size: large;
+      font-family: gotham-bold;
+      margin-top: 10px;
+      width: 200px;
+      padding-left: 4px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid white;
+  }
+
+  .products-details p {
+      font-family: helvetica neue-bold;
+      margin-left: 30px;
+  }
+
+  .products-details img {
+      width: 280px;
+      height: 200px;
+      margin-left: 40px;
+  }
+
+  .search-results {
+      border-bottom: 1px solid white;
+      width: 250px;
+  }
+
+  .plus-icon i {
+      margin-left: 130px;
+      border: 1px solid white;
+      padding: 7px;
+  }
+
+  .electronic-product {
+      font-family: gotham-bold;
+  }
+
+  .prices {
+      color: #d35266;
+  }
+
+  .grey-color {
+      color: #888888;
+  }
+
+  .date {
+      font-family: helvetica neue-medium;
+  }
+
+  .products-info {
+      width: 300px;
+      font-family: gotham;
+  }
+
+  .page-no {
+      border: 1px solid white;
+      padding: 7px;
+  }
