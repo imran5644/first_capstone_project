@@ -1,12 +1,31 @@
+# The Electronic Store Capstone Project - A Microverse Project
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 ![](https://img.shields.io/badge/Responsive-Design-orange)
 ![](https://img.shields.io/badge/HTML-CSS-blue)
 
-# The NextWeek Clone - A Microverse Project
+### **Description:** 
 
-A clone of The NextWeek landing page made for the Microverse FullStack program.
-This is a responsive site and will scale as needed to different devices.
+Project based on The Electronic Store home page, it shows a navbar with User Icon on the top-right corner, a main section with  data related information and a footer section.
+ 
+ **Header (Navbar section):**
+ 
+ 	- A Navbar with multiple options based on user's preference.
+ 	- A User Name option for Log-In.
+    - A User Icon on the top right.
 
+ **Main section:**
+ 
+ 	- Embedded electronic product images with descriptive information.
+ 	- Add Icon to add multiple products.
+ 	
+ **Footer section:**
+    - Multiple social networking logo's.
+ 	- URLs redirecting to Legal, Privacy, and Security sites with further information.
+ 	- Text related to legal information about the website.
+    - Categories for different products.
+    - A Navigation with multiple options alomg with Sign-In and Sign-Out.
+    
 ![desktop](screenshots/desktop.PNG)
 
 ![tablet](screenshots/tablets.PNG)
