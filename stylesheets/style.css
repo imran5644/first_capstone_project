@@ -4,7 +4,7 @@
 }
 
 @font-face {
-  font-family: 'gotham-bold';
+  font-family: 'gotham';
   src: url(fonts/GothamBold.ttf);
   font-weight: bold;
 }
@@ -15,25 +15,25 @@
 }
 
 @font-face {
-  font-family: 'helvetica neue-bold';
+  font-family: 'helvetica neue';
   src: url('fonts/HelveticaNeueLT75Bold.ttf');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'helvetica neue-medium';
+  font-family: 'helvetica neue';
   src: url('fonts/HelveticaNeueLT65Medium.ttf');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'helvetica neue-light';
-  src: url('fonts/HelveticaNeueLT45Light.ttf');
+  font-family: 'helvetica neue';
+  src: url('fonts/HelveticaNeuLight.ttf');
 }
 
 nav ul {
   list-style-type: none;
-  font-family: 'gotham-bold';
+  font-family: 'sans-serif, gotham';
   font-size: 24px;
 }
 
@@ -96,7 +96,7 @@ nav i {
 .search-section button {
   background-color: #383838;
   color: white;
-  font-family: 'gotham-bold';
+  font-family: 'sans-serif, gotham';
   margin-left: 4px;
 }
 
@@ -106,7 +106,7 @@ nav i {
 }
 
 .electronics-item h2 {
-  font-family: 'helvetica neue-bold';
+  font-family: 'helvetica neue, sans-serif';
   font-size: larger;
   text-align: center;
   padding-top: 30px;
@@ -133,7 +133,7 @@ article {
 
 .logo-name {
   color: #888;
-  font-family: 'gotham-bold';
+  font-family: 'sans-serif, gotham';
   padding-left: 10px;
 }
 
@@ -142,17 +142,17 @@ article {
 }
 
 .used {
-  font-family: 'helvetica neue-medium';
+  font-family: 'helvetica neue, sans-serif';
 }
 
 .product-name {
-  font-family: 'helvetica neue-bold';
+  font-family: 'helvetica neue, sans-serif';
   width: 250px;
   margin-left: 30px;
 }
 
 .city {
-  font-family: 'helvetica neue-light';
+  font-family: 'helvetica neue, sans-serif';
 }
 
 .product-price {
@@ -254,18 +254,18 @@ article {
 
 .grey {
   color: grey;
-  font-family: 'gotham';
+  font-family: 'serif, gotham';
   list-style: none;
 }
 
 .categories,
 .navigation {
-  font-family: 'gotham-bold';
+  font-family: 'gotham, serif';
   list-style: none;
 }
 
 .payment-info {
-  font-family: 'helvetica neue-bold';
+  font-family: 'Arial, Helvetica, sans-serif, helvetica neue';
 }
 
 .electronics-item {
@@ -280,7 +280,7 @@ article {
 .products-price h3,
 .price-range h3 {
   font-size: large;
-  font-family: 'gotham-bold';
+  font-family: 'gotham, serif';
   margin-top: 10px;
   width: 200px;
   padding-left: 4px;
@@ -289,7 +289,7 @@ article {
 }
 
 .products-details p {
-  font-family: 'helvetica neue-bold';
+  font-family: 'helvetica neue, sans-serif';
   margin-left: 30px;
 }
 
@@ -311,7 +311,7 @@ article {
 }
 
 .electronic-product {
-  font-family: 'gotham-bold';
+  font-family: 'gotham, sans-serif,';
 }
 
 .prices {
@@ -323,12 +323,12 @@ article {
 }
 
 .date {
-  font-family: 'helvetica neue-medium';
+  font-family: 'helvetica neue, sans-serif';
 }
 
 .products-info {
   width: 300px;
-  font-family: 'gotham';
+  font-family: 'gotham, serif';
 }
 
 .page-no {
