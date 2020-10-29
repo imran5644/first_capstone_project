@@ -98,8 +98,8 @@ grid-template-columns: 1fr 1fr;
 
 .styling {
     color: grey;
-    font-size: medium;
-    padding-top: 7px;
+    font-size: small;
+    padding-top: 12px;
     padding-left: 25px;
 }
 
@@ -110,3 +110,22 @@ grid-template-columns: 1fr 1fr;
     padding-top: 40px;
 }
 
+ /* =====search.html====  */
+ .grid-container {
+     display: grid;
+     grid-template-columns: 270px 1fr;
+ }
+
+ .border-right {
+     border-right: 1px solid white;
+ }
+
+ .products-details img {
+     height: 180;
+     width: 120px;
+     object-fit: contain;
+ }
+
+ .products-infos {
+    padding-top: 50px;
+}

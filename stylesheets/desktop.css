@@ -116,3 +116,31 @@
 margin-left: 800px;
 font-size: 30px;
 }
+
+/* ====search.html=== */
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.border-right {
+    border-right: 1px solid white;
+}
+
+.products-details img {
+    height: 200px;
+    width: 240px;
+    object-fit: contain;
+}
+
+.products-info {
+    width: 600px;
+}
+
+.products-infos {
+    padding-top: 10px;
+}
+
+.plus-icon i {
+    margin-left: 350px;
+}
