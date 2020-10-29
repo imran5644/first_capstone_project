@@ -260,7 +260,7 @@ article {
 
 .categories,
 .navigation {
-  font-family: 'gotham, serif';
+  font-family: gotham, serif;
   list-style: none;
 }
 
@@ -280,7 +280,7 @@ article {
 .products-price h3,
 .price-range h3 {
   font-size: large;
-  font-family: 'gotham, serif';
+  font-family: gotham, serif;
   margin-top: 10px;
   width: 200px;
   padding-left: 4px;
