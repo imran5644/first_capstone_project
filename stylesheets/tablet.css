@@ -110,15 +110,15 @@
   padding-top: 40px;
 }
 
- /* =====search.html====  */
+/* =====search.html====  */
 .grid-container {
   display: grid;
   grid-template-columns: 270px 1fr;
- }
+}
 
 .border-right {
   border-right: 1px solid white;
- }
+}
 
 .products-details img {
   height: 180px;

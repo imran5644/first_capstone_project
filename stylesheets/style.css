@@ -94,7 +94,7 @@ nav i {
 }
 
 .search-section button {
-  background-color:#383838;
+  background-color: #383838;
   color: white;
   font-family: 'gotham-bold';
   margin-left: 4px;
@@ -249,7 +249,7 @@ article {
 .country,
 .language,
 .currency {
-  color: #d35266;  
+  color: #d35266;
 }
 
 .grey {
@@ -271,7 +271,7 @@ article {
 .electronics-item {
   margin-top: 0;
 }
-  
+
 /* ==== Search.html ===== */
 .back-grey {
   background-color: lightgrey;
