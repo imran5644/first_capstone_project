@@ -338,12 +338,6 @@ article {
   margin-left: 30px;
 }
 
-/* .products-details {
-  width: 280px;
-  height: 200px;
-  margin-left: 40px;
-} */
-
 .search-results {
   border-bottom: 1px solid white;
   width: 250px;
@@ -395,5 +389,14 @@ article {
 .mob-flex {
   display: flex;
   flex-direction: column;
+}
+
+.space ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.user-icon i{
+  color: grey;
 }
 
