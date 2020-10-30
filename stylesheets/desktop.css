@@ -33,12 +33,12 @@
   padding-left: 75px;
 }
 
-.styling a:hover {
-  text-decoration: none;
-}
-
 .user-icon a {
   color: grey;
+}
+
+.styling a:hover {
+  text-decoration: none;
 }
 
 .username {
@@ -105,12 +105,12 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(0, auto);
-  grid-row-gap: 30px; 
+  grid-row-gap: 30px;
 }
 
 .back {
   background-color: white;
-  text-align: center
+  text-align: center;
 }
 
 .back img {
