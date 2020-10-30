@@ -26,11 +26,19 @@
   src: url('fonts/HelveticaNeueLT45Light.ttf');
 }
 
-.styling {
+.styling a {
   color: grey;
   font-size: medium;
   padding-top: 7px;
   padding-left: 75px;
+}
+
+.styling a:hover {
+  text-decoration: none;
+}
+
+.user-icon a {
+  color: grey;
 }
 
 .username {
@@ -48,6 +56,12 @@
   background-color: #d35266;
   height: 250px;
   padding-left: 15px;
+}
+
+.search-section select {
+  height: 30px;
+  margin-top: 40px;
+  width: 180px;
 }
 
 .search-section i,
@@ -170,4 +184,12 @@
 
 .plus-icon i {
   margin-left: 350px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid white;
+}
+
+.mar-top {
+  margin-top: 10px;
 }

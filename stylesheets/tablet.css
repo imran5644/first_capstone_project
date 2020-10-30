@@ -21,7 +21,7 @@
 }
 
 .space {
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .company-detail,
@@ -62,8 +62,14 @@
 .search-section i {
   position: absolute;
   z-index: 1;
-  margin-right: 180px;
+  margin-right: 220px;
   padding-top: 8px;
+}
+
+.search-section select {
+  height: 30px;
+  margin-top: 40px;
+  width: 180px;
 }
 
 .search-section i,
@@ -96,11 +102,19 @@
   margin-left: 4px;
 }
 
-.styling {
+.styling a {
   color: grey;
   font-size: small;
   padding-top: 12px;
   padding-left: 25px;
+}
+
+.styling a:hover {
+  text-decoration: none;
+}
+
+.user-icon i {
+  color: grey;
 }
 
 .center {
@@ -128,4 +142,12 @@
 
 .products-infos {
   padding-top: 50px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid white;
+}
+
+.mar-top {
+  margin-top: 10px;
 }

@@ -53,6 +53,10 @@ downloading it as Zip file. Then use the old trustable browser to open the HTML 
 - GitHub: [@imran5644](https://github.com/imran5644)
 - LinkedIn: [Imran Yousaf](https://www.linkedin.com/in/imran-yousaf-8777297b/)
 
+## Authors
+
+** Mohammed Awad**
+
 ##  Contributing
 
 Contributions, issues, and feature requests are welcome!

@@ -52,9 +52,15 @@ nav i {
   margin-left: 160px;
 }
 
-.company-name {
+.company-name a{
   padding-left: 10px;
   padding-top: 3px;
+  color: white;
+}
+
+.company-name a:hover{
+  text-decoration: none;
+  color: white;
 }
 
 .search-section {
@@ -68,6 +74,12 @@ nav i {
   z-index: 1;
   margin-right: 200px;
   padding-top: 8px;
+}
+
+.search-section select {
+  height: 30px;
+  margin-top: 40px;
+  width: 70px;
 }
 
 .search-section i,
@@ -139,6 +151,7 @@ article {
 
 .company-detail {
   padding-left: 10px;
+  width: 320px;
 }
 
 .used {
@@ -213,16 +226,19 @@ article {
   height: 30px;
 }
 
-.country input {
-  margin-left: 21px;
+.country Select {
+  margin-left: 25px;
+  height: 30px;
 }
 
-.currency input {
-  margin-left: 14px;
+.currency Select {
+  margin-left: 17px;
+  height: 30px;
 }
 
-.language input {
+.language Select {
   margin-left: 10px;
+  height: 30px;
 }
 
 .copyrights {
