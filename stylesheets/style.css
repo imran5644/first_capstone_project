@@ -80,6 +80,14 @@ nav i {
   padding-top: 8px;
 }
 
+.grey a {
+  color: grey;
+}
+
+.navigation a {
+  color: #d35266;
+}
+
 .search-section select {
   height: 30px;
   margin-top: 40px;
@@ -114,10 +122,6 @@ nav i {
   color: white;
   font-family: gotham, sans-serif;
   margin-left: 4px;
-}
-
-.navigation a {
-  color: #d35266;
 }
 
 .lightgrey {
@@ -155,10 +159,6 @@ nav i {
 
 .back {
   background-color: white;
-}
-
-.grey a {
-  color: grey;
 }
 
 article {
