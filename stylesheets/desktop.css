@@ -186,3 +186,15 @@
 .mar-top {
   margin-top: 10px;
 }
+
+.mob-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+.plus-icon i {
+  margin-left: 40px;
+  border: 1px solid white;
+  padding: 7px;
+}
