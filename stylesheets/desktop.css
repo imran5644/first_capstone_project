@@ -189,12 +189,12 @@
 
 .mob-flex {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 300px 600px;
   grid-column-gap: 10px;
 }
 
 .plus-icon i {
-  margin-left: 40px;
+  margin-left: 300px;
   border: 1px solid white;
   padding: 7px;
 }
