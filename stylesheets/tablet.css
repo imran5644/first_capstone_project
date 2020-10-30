@@ -1,6 +1,7 @@
 .sony-mobile-details {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 10px;
 }
 
 .ml {
@@ -9,13 +10,10 @@
 
 .lightgrey {
   background-color: lightgray;
-  height: 1950px;
 }
 
 .back {
   background-color: white;
-  height: 420px;
-  width: 350px;
   text-align: center;
   margin-left: 20px;
 }
@@ -122,6 +120,26 @@
   color: white;
   background-color: #d35266;
   padding-top: 40px;
+}
+
+.img-flex {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-flex img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hot-ads-section {
+  display: flex;
+}
+
+.manage-width {
+  width: 300px;
 }
 
 /* =====search.html====  */

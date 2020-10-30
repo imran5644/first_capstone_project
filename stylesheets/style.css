@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  /* overflow-x: hidden; */
 }
 
 @font-face {
@@ -114,7 +115,7 @@ nav i {
 
 .lightgrey {
   background-color: lightgray;
-  height: 3600px;
+  height: auto;
 }
 
 .electronics-item h2 {
@@ -125,23 +126,34 @@ nav i {
   letter-spacing: 2px;
 }
 
-.sony-mobile-details img {
-  margin-left: 12%;
-  width: 250px;
+.sony-mobile-details {
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  grid-gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.img-flex {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-flex img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .back {
   background-color: white;
-  height: 400px;
-  width: 290px;
-  text-align: center;
-  margin-left: 30px;
 }
 
 article {
-  background-color: white;
   color: #ac8585;
-  height: 200px;
+  font-size: 10px;
+  padding-left: 10px;
 }
 
 .logo-name {
@@ -161,8 +173,6 @@ article {
 
 .product-name {
   font-family: 'helvetica neue', sans-serif;
-  width: 250px;
-  margin-left: 30px;
 }
 
 .city {
@@ -178,55 +188,18 @@ article {
   padding: 6px;
 }
 
-.watch img {
-  height: 220px;
-}
-
-.mt {
-  margin-top: 30px;
-}
-
-.m-top {
-  margin-top: 50px;
-}
-
-.ml img {
-  width: 250px;
-}
-
-.leno-lap {
-  margin-top: 50px;
-}
-
-.tv img {
-  width: 255px;
-}
-
-.airpods img {
-  height: 200px;
-  margin-bottom: 20px;
-}
-
-.leno-lap img {
-  width: 200px;
-  margin-bottom: 30px;
-  height: 180px;
-}
-
-.camera img {
-  height: 186px;
-  margin-bottom: 30px;
-}
-
-.sonycamera img {
-  margin-top: 20px;
-  width: 200px;
-}
-
 .product-info,
 .website-info,
 .payment-info {
   padding-left: 10px;
+}
+
+.website-info a:hover {
+  text-decoration: none;
+}
+
+.product-info a:hover {
+  text-decoration: none;
 }
 
 .payment-info input {
@@ -269,8 +242,8 @@ article {
 
 .price,
 .used,
-.categories,
-.navigation,
+.categories a,
+.navigation a,
 .country,
 .language,
 .currency {
@@ -281,6 +254,10 @@ article {
   color: grey;
   font-family: gotham, serif;
   list-style: none;
+}
+
+.grey a {
+  color: grey;
 }
 
 .categories,
@@ -302,9 +279,37 @@ article {
 }
 
 .hot-ads img {
+  margin-top: -30px;
   width: 150px;
   height: 150px;
   object-fit: contain;
+  margin-left: 100px;
+}
+
+.hotads {
+  color: #888;
+  font-size: medium;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.pad-left {
+  padding-left: 20px;
+  font-size: medium;
+  margin-top: -15px;
+}
+
+.specification,
+.price-color {
+  color: #d35266;
+  padding-left: 20px;
+}
+
+.price-color {
+  border: 1px solid #d35266;
+  width: 80px;
+  margin-left: 20px;
+  background-color: #888;
 }
 
 /* ==== Search.html ===== */
