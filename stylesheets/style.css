@@ -114,7 +114,7 @@ nav i {
 
 .lightgrey {
   background-color: lightgray;
-  height: 3650px;
+  height: 3600px;
 }
 
 .electronics-item h2 {
@@ -127,14 +127,15 @@ nav i {
 
 .sony-mobile-details img {
   margin-left: 12%;
+  width: 250px;
 }
 
 .back {
   background-color: white;
   height: 400px;
-  width: 320px;
+  width: 290px;
   text-align: center;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 article {
@@ -177,12 +178,20 @@ article {
   padding: 6px;
 }
 
+.watch img {
+  height: 220px;
+}
+
 .mt {
+  margin-top: 30px;
+}
+
+.m-top {
   margin-top: 50px;
 }
 
 .ml img {
-  width: 280px;
+  width: 250px;
 }
 
 .leno-lap {
@@ -288,6 +297,16 @@ article {
   margin-top: 0;
 }
 
+.hot-ads {
+  padding-left: 10px;
+}
+
+.hot-ads img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
 /* ==== Search.html ===== */
 .back-grey {
   background-color: lightgrey;
@@ -309,7 +328,8 @@ article {
   margin-left: 30px;
 }
 
-.products-details img {
+.products-details 
+ {
   width: 280px;
   height: 200px;
   margin-left: 40px;
