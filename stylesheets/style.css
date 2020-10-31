@@ -1,0 +1,428 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'gotham';
+  src: url(fonts/GothamBold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'gotham';
+  src: url(fonts/GothamLight.ttf);
+}
+
+@font-face {
+  font-family: 'helvetica neue';
+  src: url('fonts/HelveticaNeueLT75Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'helvetica neue';
+  src: url('fonts/HelveticaNeueLT65Medium.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'helvetica neue';
+  src: url('fonts/HelveticaNeuLight.ttf');
+}
+
+nav ul {
+  list-style-type: none;
+  font-family: gotham, sans-serif;
+  font-size: 24px;
+}
+
+header {
+  background-color: #383838;
+  height: 42px;
+  color: white;
+}
+
+nav img {
+  height: 40px;
+  margin-left: 20px;
+}
+
+nav i {
+  margin-left: 160px;
+}
+
+.categories a {
+  color: #d35266;
+}
+
+.company-name a {
+  padding-left: 10px;
+  padding-top: 3px;
+  color: white;
+}
+
+.grey a {
+  color: grey;
+}
+
+.navigation a {
+  color: #d35266;
+}
+
+.company-name a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.search-section {
+  background-color: #d35266;
+  height: 100px;
+  padding-left: 20px;
+}
+
+.search-section i {
+  position: absolute;
+  z-index: 1;
+  margin-right: 200px;
+  padding-top: 8px;
+}
+
+.search-section select {
+  height: 30px;
+  margin-top: 40px;
+  width: 70px;
+}
+
+.search-section i,
+.search-section input,
+.search-section button {
+  margin-top: 40px;
+  width: 70px;
+  height: 30px;
+  border: none;
+  margin-left: 2px;
+}
+
+.search-section input,
+.search-section button {
+  position: relative;
+}
+
+.search {
+  padding-left: 10px;
+}
+
+.caret {
+  padding-left: 20px;
+}
+
+.search-section button {
+  background-color: #383838;
+  color: white;
+  font-family: gotham, sans-serif;
+  margin-left: 4px;
+}
+
+.lightgrey {
+  background-color: lightgray;
+  height: auto;
+}
+
+.electronics-item h2 {
+  font-family: 'helvetica neue', sans-serif;
+  font-size: larger;
+  text-align: center;
+  padding-top: 30px;
+  letter-spacing: 2px;
+}
+
+.sony-mobile-details {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.img-flex {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-flex img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.back {
+  background-color: white;
+}
+
+article {
+  color: #ac8585;
+  font-size: 12px;
+  padding-left: 10px;
+  font-weight: 800;
+}
+
+.logo-name {
+  color: #888;
+  font-family: gotham, sans-serif;
+  padding-left: 10px;
+}
+
+.company-detail {
+  padding-left: 10px;
+  width: 320px;
+}
+
+.used {
+  font-family: 'helvetica neue', sans-serif;
+}
+
+.product-name {
+  font-family: 'helvetica neue', sans-serif;
+  padding-left: 70px;
+}
+
+.city {
+  font-family: 'helvetica neue', sans-serif;
+}
+
+.product-price {
+  justify-content: space-around;
+}
+
+.product-price i {
+  border: 2px solid lightgrey;
+  padding: 6px;
+}
+
+.product-info,
+.website-info,
+.payment-info {
+  padding-left: 10px;
+}
+
+.website-info a:hover {
+  text-decoration: none;
+}
+
+.product-info a:hover {
+  text-decoration: none;
+}
+
+.payment-info input {
+  width: 100px;
+  border: 1px solid #888;
+  height: 30px;
+}
+
+.country select {
+  margin-left: 25px;
+  height: 30px;
+}
+
+.currency select {
+  margin-left: 17px;
+  height: 30px;
+}
+
+.language select {
+  margin-left: 10px;
+  height: 30px;
+}
+
+.copyrights {
+  font-size: 12px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.right-side {
+  margin-left: 50px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.right-side i {
+  padding-left: 5px;
+  margin-top: -30px;
+}
+
+.price,
+.used,
+.country,
+.language,
+.currency {
+  color: #d35266;
+}
+
+.price {
+  font-weight: 700;
+  font-size: larger;
+}
+
+.grey {
+  color: grey;
+  font-family: gotham, serif;
+  list-style: none;
+}
+
+.categories,
+.navigation {
+  font-family: gotham, serif;
+  list-style: none;
+}
+
+.payment-info {
+  font-family: Arial, Helvetica, sans-serif, 'helvetica neue';
+}
+
+.electronics-item {
+  margin-top: 0;
+}
+
+.hot-ads {
+  padding-left: 10px;
+}
+
+.hot-ads img {
+  margin-top: -30px;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-left: 100px;
+}
+
+.hotads {
+  color: #888;
+  font-size: medium;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.pad-left {
+  padding-left: 20px;
+  font-size: medium;
+  margin-top: -15px;
+}
+
+.specification,
+.price-color {
+  color: #d35266;
+  padding-left: 20px;
+}
+
+.price-color {
+  border-radius: 50px 0 0 50px;
+  width: 70px;
+  height: 50px;
+  margin-left: 20px;
+  background-color: #d35266;
+  border: none;
+  color: white;
+  padding-left: 20px;
+  padding-top: 12px;
+  margin-bottom: 20px;
+  border-right: 1px solid white;
+}
+
+.mar-l {
+  border-radius: 0 50px 50px 0;
+  background-color: #d35266;
+  border: none;
+  color: white;
+  height: 50px;
+  width: 150px;
+}
+
+.mar-l i {
+  padding-right: 10px;
+}
+
+/* ==== Search.html ===== */
+.back-grey {
+  background-color: lightgrey;
+}
+
+.products-price h3,
+.price-range h3 {
+  font-size: large;
+  font-family: gotham, serif;
+  margin-top: 10px;
+  width: 200px;
+  padding-left: 4px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid white;
+}
+
+.products-details p {
+  font-family: 'helvetica neue', sans-serif;
+  margin-left: 30px;
+}
+
+.search-results {
+  border-bottom: 1px solid white;
+  width: 250px;
+}
+
+.plus-icon i {
+  margin-left: 130px;
+  border: 1px solid white;
+  padding: 7px;
+}
+
+.electronic-product {
+  font-family: gotham, sans-serif;
+}
+
+.prices {
+  color: #d35266;
+}
+
+.grey-color {
+  color: #888;
+}
+
+.date {
+  font-family: 'helvetica neue', sans-serif;
+}
+
+.products-info {
+  width: 300px;
+  font-family: gotham, serif;
+}
+
+.page-no {
+  border: 1px solid white;
+  padding: 7px;
+}
+
+.products-details img {
+  margin-left: 70px;
+  margin-bottom: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.border-bottom {
+  margin-top: 30px;
+}
+
+.mob-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.space ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.user-icon i {
+  color: grey;
+}

@@ -1,0 +1,183 @@
+.sony-mobile-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.ml {
+  margin-top: 5px;
+}
+
+.lightgrey {
+  background-color: lightgray;
+}
+
+.back {
+  background-color: white;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.space {
+  justify-content: space-evenly;
+}
+
+.company-detail,
+.logo-name {
+  width: 220px;
+  list-style-type: none;
+}
+
+.right-side {
+  margin-left: 300px;
+}
+
+.mt-11 {
+  margin-top: 75px;
+}
+
+.copyrights {
+  font-size: 15px;
+  padding-left: 20px;
+  flex-wrap: wrap;
+}
+
+.right-side i {
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.search-section {
+  background-color: #d35266;
+  height: 250px;
+  padding-left: 15px;
+}
+
+.search-section i {
+  position: absolute;
+  z-index: 1;
+  margin-right: 220px;
+  padding-top: 8px;
+}
+
+.search-section select {
+  height: 30px;
+  margin-top: 40px;
+  width: 180px;
+}
+
+.search-section i,
+.search-section input,
+.search-section button {
+  margin-top: 40px;
+  width: 180px;
+  height: 30px;
+  border: none;
+  margin-left: 2px;
+}
+
+.search-section input,
+.search-section button {
+  position: relative;
+}
+
+.search {
+  padding-left: 10px;
+}
+
+.caret {
+  margin-left: 20px;
+}
+
+.search-section button {
+  background-color: #383838;
+  color: white;
+  font-family: gotham, sans-serif;
+  margin-left: 4px;
+}
+
+.styling a {
+  color: grey;
+  font-size: small;
+  padding-top: 12px;
+  padding-left: 25px;
+}
+
+.styling a:hover {
+  text-decoration: none;
+}
+
+.user-icon i {
+  color: grey;
+}
+
+.center {
+  text-align: center;
+  color: white;
+  background-color: #d35266;
+  padding-top: 40px;
+}
+
+.img-flex {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-flex img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hot-ads-section {
+  display: flex;
+}
+
+.manage-width {
+  width: 300px;
+}
+
+/* =====search.html====  */
+.grid-container {
+  display: grid;
+  grid-template-columns: 270px 1fr;
+}
+
+.border-right {
+  border-right: 1px solid white;
+}
+
+.products-details img {
+  height: 180px;
+  width: 120px;
+  object-fit: contain;
+}
+
+.products-infos {
+  padding-top: 50px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid white;
+}
+
+.mar-top {
+  margin-top: 10px;
+}
+
+.mob-flex {
+  display: grid;
+  grid-template-columns: 150px 240px;
+  grid-column-gap: 10px;
+}
+
+.plus-icon i {
+  margin-left: 40px;
+  border: 1px solid white;
+  padding: 7px;
+}

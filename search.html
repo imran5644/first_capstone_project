@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ZATTIX</title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="stylesheets/tablet.css">
+        <link rel="stylesheet" media="screen and (min-width: 1024px)" href="stylesheets/desktop.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="d-flex">
+                    <li><img src="images/logo.PNG" alt="logo"/></li>
+                    <li class="company-name"><a href="#">ZATTEX</a></li>
+                    <li class="styling d-none d-md-flex"><a href="#">Home</a></li>
+                    <li class="styling d-none d-md-flex"><a href="#">Collections</a></li>
+                    <li class="styling d-none d-md-flex"><a href="#">Ordered list</a></li>
+                    <li class="styling d-none d-md-flex username"><a href="#">user-name</a></li>
+                    <li class="user-icon"><a href="#"><i class="fa fa-user"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            
+            <div class="search-section">
+                <div class="center d-none d-md-flex flex-md-column">
+                    <h1>ZATTEX</h1>
+                    <p>Search around 10,356,35 items are waiting to be sold</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <select>
+                        <option>All Products</option>
+                        <option>Electronics</option>
+                    </select> 
+                <input type="search" class="search" name="search" placeholder="what are you looking for?">
+                <input type="text" name="city" class="city">
+                <button type="button">Search</button>
+            </div>
+            </div>
+
+            <section class="back-grey grid-container">
+                <div class="border-right">
+                <div class="pl-5 pt-2 d-flex">
+                    <div>
+                    <input type="radio" value="best-price">
+                    <label>Best Price</label>
+                </div>
+
+                <div class="pl-3">
+                    <input type="radio" value="best-sellers">
+                    <label>Best Sellers</label>
+                </div>
+                </div>
+
+                <div class="pl-5 products-price d-flex flex-column">
+                    <h3>Type</h3>
+                    <div class="pt-3">
+                       <input type="checkbox" value="samsung-mobile">
+                       <label>Samsung Mobiles</label>
+                   </div>
+
+                   <div>
+                       <input type="checkbox" value="apple-mobile">
+                       <label>Iphone Mobiles</label>
+                   </div>
+
+                    <div>
+                        <input type="checkbox" value="asus-laptops">
+                        <label>Asus Laptop</label>
+                    </div>
+
+                    <div>
+                       <input type="checkbox" value="apple-ipad">
+                       <label>Apple Ipad</label>
+                    </div>
+
+                    <div>
+                       <input type="checkbox" value="vivo-mobile">
+                       <label>Vivo Mobiles</label>
+                   </div>
+                </div>
+
+                <div class="d-flex flex-column pl-5 price-range">
+                    <h3>Price Range</h3>
+                    <div>
+                        <input type="radio" value="price">
+                        <label>$10-$20</label>
+                    </div>
+
+                     <div>
+                         <input type="radio" value="price">
+                         <label>$21-$40</label>
+                     </div>
+
+                     <div>
+                        <input type="radio" value="price">
+                        <label>$41-$70</label>
+                    </div>
+
+                    <div>
+                       <input type="radio" value="price">
+                       <label>$71-$100</label>
+                    </div>
+
+                    <div>
+                    <input type="radio" value="price">
+                    <label>$101-$500</label>
+                </div>
+                </div>
+            </div>
+
+
+                <div>
+                <div class="products-details">
+                    <p class="pt-4 ml-5 search-results">1139 results electronics products</p>
+
+                    <div class="mob-flex border-bottom">
+                        <div>
+                         <img src="images/laptop.PNG" alt="laptop"/>
+                       </div>
+                       <div>
+                    <div class="d-flex products-infos">
+                      <p class="pl-3 electronic-product">Asus Laptop</p>
+                      <p class="plus-icon"><i class="fa fa-plus"></i></p>
+                    </div>
+                    <p class="pl-3 mt-n3 prices">$587</p>
+                    <p class="pl-3 products-info"> Asus laptops come in a wide range of options that features powerful processors, high-capacity RAM, impressive audio output and come in sleek and slim designs.</p>
+                    <p class="pl-3">Supplier <span class="grey-color">Asus</span></p>
+                    <p class="pl-3 mt-n2 date">29 Oct, 2020</p>
+                    </div>
+                </div>
+
+                      <div class="mob-flex border-bottom">
+                      <div>
+                        <img src="images/mobile.PNG" alt="mobile"/>
+                       </div>
+
+                    <div>
+                        <div class="d-flex products-infos">
+                          <p class="pl-3 electronic-product ">Apple Iphone</p>
+                          <p class="plus-icon"><i class="fa fa-plus"></i></p>
+                        </div>
+                        <p class="pl-3 mt-n3 prices">$794</p>
+                        <p class="pl-3 products-info"> The phone comes with a 3.50-inch display with a resolution of 320x480 pixels. Apple iPhone is powered by a 412 MHz one-core processor. It comes with 128MB of RAM.</p>
+                        <p class="pl-3">Supplier <span class="grey-color">Apple</span></p>
+                        <p class="pl-3 mt-n2 date">29 Oct, 2020</p>
+                        </div>
+                    </div>
+
+                       <div class="mob-flex border-bottom">
+                        <div>
+                            <img src="images/camera.PNG" alt="laptop"/>
+                        </div>
+                        <div>
+                            <div class="d-flex products-infos">
+                              <p class="pl-3 electronic-product">Canon Camera</p>
+                              <p class="plus-icon"><i class="fa fa-plus"></i></p>
+                            </div>
+                            <p class="pl-3 mt-n3 prices">$1099</p>
+                            <p class="pl-3 products-info"> The Canon EOS 60D is an 18.1 megapixels semi-pro digital single-lens reflex camera made by Canon. It is the successor of the EOS 50D and is the predecessor of the EOS 70D.</p>
+                            <p class="pl-3">Supplier <span class="grey-color">Asus</span></p>
+                            <p class="pl-3 mt-n2 date">29 Oct, 2020</p>
+                            </div>
+                        </div>
+
+                        <div class="mob-flex border-bottom">
+                            <div>
+                                <img src="images/led.PNG" alt="laptop"/>
+                            </div>
+                            <div>
+                                <div class="d-flex products-infos">
+                                  <p class="pl-3 electronic-product">Samsung Tv</p>
+                                  <p class="plus-icon"><i class="fa fa-plus"></i></p>
+                                </div>
+                                <p class="pl-3 mt-n3 prices">$857</p>
+                                <p class="pl-3 products-info"> Samsung offers LED TVs like HD TV, The Frame TV, Full HD TV, 4K UHD TV, QLED 8K TV, QLED 4K TV, Curved TV, Smart TV etc..</p>
+                                <p class="pl-3">Supplier <span class="grey-color">Asus</span></p>
+                                <p class="pl-3 mt-n2 date">29 Oct, 2020</p>
+                                </div>
+                            </div>
+
+                                <div class="d-flex justify-content-center border-bottom mar-top">
+                                    <p class="page-no">1</p>
+                                    <p class="page-no">2</p>
+                                    <p class="page-no">3</p>
+                                </div>
+                </div>
+            </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="flex-row d-lg-flex space">
+            <div>
+            <ul>
+            <li><img src="images/bottom-logo.PNG" alt="bottom-logo"/></li>
+            <li class="logo-name">ZATTEX</li>
+            <li class="company-detail">ZATTIX is an electronic product company that aims to sell you electronics devices. 
+                We have all your eletronics needs to have a good quality of life.</li>
+            </ul>
+            </div>
+
+            <div class="mt-11">
+            <ul class="product-info">
+                <li class="categories">Categories</li>
+                <li class="grey">Mobiles</li>
+                <li class="grey">Laptops</li>
+                <li class="grey">Cameras</li>
+                <li class="grey">Tvs</li>
+                <li class="grey">Tablets</li>
+            </ul>
+           </div>
+
+            <div class="mt-11">
+            <ul class="website-info">
+                <li class="navigation">Navigation</li>
+                <li class="grey">Home</li>
+                <li class="grey">Collections</li>
+                <li class="grey">Sign-in</li>
+                <li class="grey">Sign-out</li>
+                <li class="grey">About us</li>
+                <li class="grey"> Terms and conditions</li>
+            </ul>
+          </div>
+
+          <div class="payment-info mt-11">
+            <div class="d-flex country">
+            <p>Country</p>
+            <select>
+                <option>India</option>
+                <option>Usa</option>
+            </select>
+
+           </div>
+           <div class="d-flex language">
+            <p>Language</p>
+            <select>
+               <option>Hindi</option>
+               <option>English</option>
+           </select>
+           </div>
+           <div class="d-flex currency">
+            <p>Currency</p>
+            <select>
+               <option>Rupees</option>
+               <option>Dollars</option>
+           </select>
+           </div>
+        </div>
+       </div>
+
+
+             <div class="d-flex copyrights">
+                <p>Copyrights © all rights reserved</p>
+                <ul class="d-flex right-side">
+                    <li><i class="fa fa-facebook-square"></i></li>
+                    <li><i class="fa fa-instagram"></i></li>
+                    <li><i class="fa fa-twitter-square"></i></li>
+                    <li><i class="fa fa-linkedin"></i></li>
+                </ul>
+             </div>
+        </footer>
+        </body>
+        </html>
+        

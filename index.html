@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ZATTIX</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="stylesheets/tablet.css">
+        <link rel="stylesheet" media="screen and (min-width: 1024px)" href="stylesheets/desktop.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="d-flex">
+                    <li><img src="images/logo.PNG" alt="logo"/></li>
+                    <li class="company-name"><a href="#">ZATTEX</a></li>
+                    <li class="styling d-none d-md-flex"><a href="#">Home</a></li>
+                    <li class="styling d-none d-md-flex"><a href="#">Collections</a></li>
+                    <li class="styling d-none d-md-flex"><a href="#">Ordered list</a></li>
+                    <li class="styling d-none d-md-flex username"><a href="#">user-name</a></li>
+                    <li class="user-icon"><a href="#"><i class="fa fa-user"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            
+            <div class="search-section">
+                <div class="center d-none d-md-flex flex-md-column">
+                    <h1>ZATTEX</h1>
+                    <p>Search around 10,356,35 items are waiting to be sold</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                  
+                    <select>
+                        <option>All Products</option>
+                        <option>Electronics</option>
+                    </select> 
+
+                <input type="search" class="search" name="search" placeholder="what are you looking for?">
+                <input type="text" name="city" placeholder="enter the city name">
+                <button onclick="document.location='search.html'" type="button">Search</button>
+            </div>
+        </div>
+
+        
+
+            <section class="hot-ads">
+                <h3 class="hotads">HOT ADS</h3>
+                <div class="hot-ads-section">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block" src="images/sonycamera.PNG" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block" src="images/camera.PNG" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block" src="images/laptop.PNG" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                
+
+                  <div class="manage-width">
+                 <p class="specification">Best Products</p>
+                 <p class="grey pad-left">High-quality Best Product with lower market price</p>
+                 <p class="grey pad-left">By Amazon</p>
+
+                <div class="d-flex">
+                 <span class="price-color">$459</span>
+                 <button class="mar-l"><i class="fa fa-shopping-cart"></i>Purchase detail</button>
+                </div>
+                </div>
+            </div>
+            </section>
+
+
+            <section class="product-information">
+            <div class="lightgrey electronics-item">
+                <h2>Electronics Products</h2>
+                <div class="sony-mobile-details ml-tab">
+                    <div class="back d-flex flex-column"> 
+                    <div class="img-flex">
+                       <img src="images/mobile.PNG" alt="mobile-pic"/>
+                    </div>
+                    <article>
+                        <p class="product-name">Sony Xperia Z3 16GB- Unlocked White...</p>
+                        <p class="used">Used</p>
+                        <p class="city">From San Francisco, Us</p>
+
+                        <div class="d-flex product-price">
+                          <p><i class="fa fa-plus"></i></p>
+                          <p class="price">$450</p>
+                         </div>
+                    </article>
+                </div>
+                  
+                <div class="back ml"> 
+                    <div class="img-flex">
+                    <img src="images/laptop.PNG" alt="laptop-pic"/>
+                   </div>
+                    <article>
+                        <p class="product-name">Hp Envy 15 1080p Laptop, Intel Core-i7...</p>
+                        <p class="used">New</p>
+                        <p class="city">From San Francisco, Us</p>
+
+                        <div class="d-flex product-price">
+                          <p><i class="fa fa-plus"></i></p>
+                          <p class="price">$920</p>
+                         </div>
+                    </article>
+                </div>
+                     
+                <div class="back tv"> 
+                    <div class="img-flex">
+                       <img src="images/led.PNG" alt="tv-pic"/>
+                   </div>
+                    <article>
+                        <p class="product-name">Samsung Smart TV Ultra HD 4K...</p>
+                        <p class="used">New</p>
+                        <p class="city">From San Francisco, Us</p>
+
+                        <div class="d-flex product-price">
+                          <p><i class="fa fa-plus"></i></p>
+                          <p class="price">$1380</p>
+                         </div>
+                    </article>
+                </div>
+
+                <div class="back camera">
+                    <div class="img-flex">
+                      <img src="images/camera.PNG" alt="camera-pic"/>
+                    </div> 
+                    <article>
+                        <p class="product-name">Canon Dslr 18Mp...</p>
+                        <p class="used">New</p>
+                        <p class="city">From San Francisco, Us</p>
+
+                        <div class="d-flex product-price">
+                          <p><i class="fa fa-plus"></i></p>
+                          <p class="price">$450</p>
+                         </div>
+                    </article>
+                </div>
+
+                <div class="back airpods"> 
+                    <div class="img-flex">
+                    <img src="images/appleairpod.PNG" alt="appleairpods-pic"/>
+                </div>
+                    <article>
+                        <p class="product-name">Apple AirPods with Charging Case...</p>
+                        <p class="used">New</p>
+                        <p class="city">From San Francisco, Us</p>
+
+                        <div class="d-flex product-price">
+                          <p><i class="fa fa-plus"></i></p>
+                          <p class="price">$212</p>
+                         </div>
+                    </article>
+                </div>
+
+                <div class="back watch"> 
+                    <div class="img-flex">
+                    <img src="images/watch.PNG" alt="watch-pic"/>
+                   </div>
+                    <article>
+                        <p class="product-name">New Apple Watch SE (GPS, 44mm) ...</p>
+                        <p class="used">New</p>
+                        <p class="city">From San Francisco, Us</p>
+
+                        <div class="d-flex product-price">
+                          <p><i class="fa fa-plus"></i></p>
+                          <p class="price">$650</p>
+                         </div>
+                    </article>
+                </div>
+
+                <div class="back leno-lap"> 
+                    <div class="img-flex">
+                    <img src="images/lenovo-laptop.PNG" alt="lenovo-laptop-pic"/>
+                   </div>
+                    <article>
+                        <p class="product-name">NLenovo Yoga C640 10th Gen Intel Core i5 13.3 inch Full HD...</p>
+                        <p class="used">New</p>
+                        <p class="city">From San Francisco, Us</p>
+
+                        <div class="d-flex product-price">
+                          <p><i class="fa fa-plus"></i></p>
+                          <p class="price">$1235</p>
+                         </div>
+                    </article>
+                </div>
+
+                <div class="back sonycamera"> 
+                    <div class="img-flex">
+                    <img src="images/sonycamera.PNG" alt="sony-camera-pic"/>
+                    </div>
+                    <article>
+                        <p class="product-name">Sony DSC W830 Cyber-Shot 20.1 MP Point and Shoot Camera...</p>
+                        <p class="used">Used</p>
+                        <p class="city">From San Francisco, Us</p>
+
+                        <div class="d-flex product-price">
+                          <p><i class="fa fa-plus"></i></p>
+                          <p class="price">$769</p>
+                         </div>
+                    </article>
+                </div>
+                <br/>
+                </div>
+            </div>
+        </section>
+        </main>
+
+        <footer>
+            <div class="flex-row d-lg-flex space">
+            <div>
+            <ul>
+            <li><img src="images/bottom-logo.PNG" alt="bottom-logo"/></li>
+            <li class="logo-name">ZATTEX</li>
+            <li class="company-detail">ZATTIX is an electronic product company that aims to sell you electronics devices. 
+                We have all your eletronics needs to have a good quality of life.</li>
+            </ul>
+            </div>
+
+            <div class="mt-11">
+            <ul class="product-info">
+                <li class="categories"><a href="#">Categories</a></li>
+                <li class="grey"><a href="#">Electronics</a></li>
+                <li class="grey"><a href="#">Mobiles</a></li>
+                <li class="grey"><a href="#">Laptops</a></li>
+                <li class="grey"><a href="#">Cameras</a></li>
+                <li class="grey"><a href="#">Tvs</a></li>
+                <li class="grey"><a href="#">Tablets</a></li>
+            </ul>
+           </div>
+
+            <div class="mt-11">
+            <ul class="website-info">
+                <li class="navigation"><a href="#">Navigation</a></li>
+                <li class="grey"><a href="#">Home</a></li>
+                <li class="grey"><a href="#">Collections</a></li>
+                <li class="grey"><a href="#">Sign-in</a></li>
+                <li class="grey"><a href="#">Sign-out</a></li>
+                <li class="grey"><a href="#">About us</a></li>
+                <li class="grey"><a href="#">Terms and conditions</a></li>
+            </ul>
+          </div>
+
+             <div class="payment-info mt-11">
+                 <div class="d-flex country">
+                 <p>Country</p>
+                 <select>
+                     <option>India</option>
+                     <option>Usa</option>
+                 </select>
+
+                </div>
+                <div class="d-flex language">
+                 <p>Language</p>
+                 <select>
+                    <option>Hindi</option>
+                    <option>English</option>
+                </select>
+                </div>
+                <div class="d-flex currency">
+                 <p>Currency</p>
+                 <select>
+                    <option>Rupees</option>
+                    <option>Dollars</option>
+                </select>
+                </div>
+             </div>
+            </div>
+
+             <div class="d-flex copyrights">
+                <p>Copyrights © all rights reserved</p>
+                <ul class="d-flex right-side">
+                    <li><i class="fa fa-facebook-square"></i></li>
+                    <li><i class="fa fa-instagram"></i></li>
+                    <li><i class="fa fa-twitter-square"></i></li>
+                    <li><i class="fa fa-linkedin"></i></li>
+                </ul>
+             </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
