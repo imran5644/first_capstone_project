@@ -318,7 +318,7 @@ article {
 }
 
 .price-color {
-  border-radius: 50px 0px 0px 50px;
+  border-radius: 50px 0 0 50px;
   width: 70px;
   height: 50px;
   margin-left: 20px;
@@ -332,7 +332,7 @@ article {
 }
 
 .mar-l {
-  border-radius: 0px 50px 50px 0px;
+  border-radius: 0 50px 50px 0;
   background-color: #d35266;
   border: none;
   color: white;
